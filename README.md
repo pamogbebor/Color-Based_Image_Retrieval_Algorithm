@@ -2,10 +2,10 @@
 # Color-Based Image Retrieval Algorithm and Color Histogram Generator
 
 ## Description
-This project is a color-based image retrieval algorithm that allows users to compare and retrieve images from a database based on their color similarity to a query image. The algorithm can extract color histograms in the color space of RGB, HSV, or CIELAB. It can also compare color histograms with the euclidean, cosine, chi2, correlation, intersection, or bhattacharyya equation. The algorithm contains helpful functions that optimizes the retrieval process for large datasets. Additionally, this program contains a function that generates the color histogram of an image in RGB, HSV, or CIELAB
+This project is a color-based image retrieval algorithm that allows users to retrieve images from a database based on their color similarity to a query image. The algorithm can extract color histograms in the color space of RGB, HSV, or CIELAB and display them. It utilizes the equations of euclidean, cosine, chi2, correlation, intersection, and bhattacharyya to compare and rank color histograms. it contains a function that helps optimize the retrieval process for large datasets.
 
 ## Background & Potential Uses
-This algorithm is a simplified version of a project I created to help law enforcement retrieve images of indoor spaces and potentially geolocate the query image. A color-based image retrieval algorithm can also be helpful for graphic design, shopping, and art curating. It allows you to retrieve images strictly based on their color characteristics. 
+This algorithm is a simplified version of a project I worked on to help law enforcement retrieve images of indoor spaces and geolocate a query image. However, a color-based image retrieval algorithm is also useful for graphic design, shopping, art curating, and any field where color characteristics play an important role in image analytics. 
 
 ## Output Examples
 **Color-Based Image Retrieval:**
